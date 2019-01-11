@@ -1,4 +1,3 @@
-sfdx force:config:set apiVersion=45.0
 sfdx force:config:set
 sfdx force:org:create -s -f config/project-scratch-def.json
 sfdx force:source:push
